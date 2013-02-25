@@ -3,11 +3,19 @@
     	               "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-  <head>
-    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    	<title>GlassFish JSP Page</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
-</html> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Music Me</title>
+</head>
+<body>
+<h1>SingWithMe</h1>
+
+	<form id="search-song-frm"><label>What song are you looking for?</label>
+		<fieldset>
+			<input type="text" name="keyword" id="keyword" value="Type Keyword Here" onBlur="if(this.value=='') this.value='Type Keyword Here'" onFocus="if(this.value =='Type Keyword Here' ) this.value=''" /> 
+			<button>Search</button>
+		</fieldset>	
+	</form>
+
+</body>
+</html>
